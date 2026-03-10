@@ -1,3 +1,23 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-red: #E3646E;
+  --color-purple: #BB72E9;
+  --color-blue: #3996DB;
+  --color-green: #82BC4F;
+  --color-yellow: #EABD5F;
+
+  --text-grey100: #E2E4E9;
+  --text-grey200: #C0C4CE;
+  --text-grey300: #878EA1;
+  --text-grey400: #292C34;
+  --text-grey500: #16181D;
+  --text-grey600: #0D0E11;
+
+
+  --font-family-asap: 
 }
