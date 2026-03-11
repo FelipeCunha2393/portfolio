@@ -28,6 +28,14 @@
   --text-sb: 600 20px/120% var(--font-family-icl);
 
   --font-family-mp: 'Maven Pro', sans-serif;
-  --text-md: 600 16px/140% var(--font-family-mp);
-  --text-sm: 600 14px/140% var(--font-family-mp);
+  --text-mdm: 600 16px/140% var(--font-family-mp);
+  --text-smi: 600 14px/140% var(--font-family-mp);
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-row {
+  grid-auto-flow: row;
 }
