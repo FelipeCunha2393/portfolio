@@ -66,9 +66,13 @@
 }
 
 #tech {
+  
+  
   .techz {
+    margin-top: 80px;
     text-decoration: none;
     color: var(--text-grey200);
+  
   }
 
   
