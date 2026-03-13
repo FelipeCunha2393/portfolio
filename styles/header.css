@@ -45,6 +45,10 @@
 }
 
 #text-header {
+
+  span {
+    color: var(--color-red);
+  }
   
   h2 {
     margin-top: 56px;
