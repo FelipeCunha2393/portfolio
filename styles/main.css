@@ -14,14 +14,24 @@
   }
 }
 
+.thumb {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+}
+
 .card {
   img {
     height: 156px;
     width: 306px;
   }
-
-  background: var(--text-grey200);
-  padding: 16px;
+  max-width: 330px;
+  max-height: 280px;
+  background: var(--text-grey400);
+  padding: 10px;
   border-radius: 12px;
   display: grid;
   z-index: 1;
@@ -38,3 +48,4 @@
   color: var(--text-grey200);
   
 }
+

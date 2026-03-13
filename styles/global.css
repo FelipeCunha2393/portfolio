@@ -29,7 +29,7 @@
 
   --font-family-mp: 'Maven Pro', sans-serif;
   --text-mdm: 600 16px/140% var(--font-family-mp);
-  --text-smi: 600 14px/140% var(--font-family-mp);
+  --text-smi: 400 14px/140% var(--font-family-mp);
 }
 
 .grid {
