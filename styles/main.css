@@ -14,25 +14,21 @@
   }
 }
 
-#thumb {
+.card {
   img {
-    margin-top: 6px;
-    max-width: 306px;
-    max-height: 156px;
+    height: 156px;
+    width: 306px;
   }
-  background-color: var(--text-grey400);
-  width: 330px;
-  height: 280px;
-  border-radius: 4px;
-  position: relative;
-  span {
-    font: var(--title-sm);
-    color: var(--text-grey100);
-  }
-
-  p {
-    font: var(--text-smi);
-    color: var(--text-grey200)
-  };
 }
 
+.title {
+  font: var(--title-sm);
+  color: var(--text-grey100);
+  padding: 20px 0px 8px;
+}
+
+.discription {
+  font: var(--text-smi);
+  color: var(--text-grey200);
+  
+}
