@@ -46,7 +46,9 @@
 
 #text-header {
 
-  span {
+  display: grid;
+
+  strong {
     color: var(--color-red);
   }
   
@@ -69,13 +71,24 @@
   }
 }
 
-#tech {
+.icon-intro {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 80px;
+  font: var(--text-mdm);
+  color: var(--text-grey200);
+
   
-  
-  .techz {
-    margin-top: 80px;
-    text-decoration: none;
-    color: var(--text-grey200);
-  
+}
+
+.tech-icons {
+  p {
+    background-color: var(--text-grey400);
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
   }
 }

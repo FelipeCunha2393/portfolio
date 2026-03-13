@@ -36,13 +36,3 @@
   };
 }
 
-.icon-intro {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 80px;
-  font: var(--text-mdm);
-  color: var(--text-grey200);
-}
-
-
