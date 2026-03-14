@@ -45,9 +45,18 @@
   gap: 16px;
 }
 
+
 .techz {
   display: flex;
   align-items: center;
   gap: 8px;
 }
  
+.thumb {
+  max-width: 900px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin: 48px auto 0px;
+}

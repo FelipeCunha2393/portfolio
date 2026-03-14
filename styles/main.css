@@ -1,49 +1,49 @@
 #main {
   background-color: var(--text-grey500);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 0px;
+  
+}
 
-  h2 {
+#main h2 {
     margin-top: 8px;
     font: var(--title-md);
     color: var(--text-grey200);
-  }
-
-  h3 {
-    font: var(--text-sb);
-    color: var(--color-red);
-  }
 }
 
-.thumb {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  max-width: 900px;
-  align-items: center;
-  justify-content: center;
+#main h3 {
+    font: var(--text-sb);
+    color: var(--color-red);
+}
+
+
+
+
+.card img{
+  height: 156px;
+  width: 306px;
+  
+ 
 }
 
 .card {
-  img {
-    height: 156px;
-    width: 306px;
-  }
   max-width: 330px;
-  max-height: 280px;
   background: var(--text-grey400);
   padding: 10px;
   border-radius: 12px;
   display: grid;
   z-index: 1;
 }
-
-.title {
+.card title {
   font: var(--title-sm);
   color: var(--text-grey100);
   padding: 20px 0px 8px;
 }
 
-.discription {
+.card p {
   font: var(--text-smi);
   color: var(--text-grey200);
   
