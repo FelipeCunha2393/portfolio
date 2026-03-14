@@ -37,7 +37,7 @@
   display: grid;
   z-index: 1;
 }
-.card title {
+.title {
   font: var(--title-sm);
   color: var(--text-grey100);
   padding: 20px 0px 8px;
