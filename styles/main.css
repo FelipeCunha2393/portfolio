@@ -63,3 +63,11 @@
   gap: 24px;
   align-items: center;
 }
+
+.service {
+  background-color: var(--text-grey600);
+  display: flex;
+  min-width: 100vw;
+  height: 480px;
+ 
+}
